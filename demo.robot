@@ -1,8 +1,8 @@
 *** Test Cases ***
-Pass Test
+Automation Test - Demo TCs PASS
     Log    PASS
     Should Be Equal    1    1
 
-Fail Test
+Automation Test - Demo TCs FAIL
     Log    FAIL
     Should Be Equal    1    2
