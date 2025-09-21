@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.9.6 on darwin)" generated="2025-09-22T00:03:16.382475" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="/Users/ngavu/Documents/robot-framework/demo.robot">
+<test id="s1-t1" name="Pass Test" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-22T00:03:16.391235" level="INFO">PASS</msg>
+<arg>PASS</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-22T00:03:16.391168" elapsed="0.000094"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<arg>1</arg>
+<arg>1</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" start="2025-09-22T00:03:16.391341" elapsed="0.000064"/>
+</kw>
+<status status="PASS" start="2025-09-22T00:03:16.390879" elapsed="0.000586"/>
+</test>
+<test id="s1-t2" name="Fail Test" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-22T00:03:16.391692" level="INFO">FAIL</msg>
+<arg>FAIL</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-22T00:03:16.391652" elapsed="0.000060"/>
+</kw>
+<kw name="Should Be Equal" owner="BuiltIn">
+<msg time="2025-09-22T00:03:16.391870" level="FAIL">1 != 2</msg>
+<arg>1</arg>
+<arg>2</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="FAIL" start="2025-09-22T00:03:16.391763" elapsed="0.000139">1 != 2</status>
+</kw>
+<status status="FAIL" start="2025-09-22T00:03:16.391543" elapsed="0.000436">1 != 2</status>
+</test>
+<status status="FAIL" start="2025-09-22T00:03:16.383001" elapsed="0.009134"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Demo" id="s1" pass="1" fail="1" skip="0">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
